@@ -1,0 +1,50 @@
+body {
+  font-family: "Arial", Times, serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+  margin-bottom: 4%;
+}
+
+p {
+  margin: 0px;
+}
+
+#rezultatPlaninarenja {
+  text-align: left;
+  margin: 20px;
+}
+
+#rezultatStatistike {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.sahovskaTabla {
+  width: 640px;
+  height: 640px;
+  margin: 20px;
+  border: 10px solid #333;
+}
+.crna {
+  float: left;
+  width: 80px;
+  height: 80px;
+  background-color: #999;
+  font-size: 50px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.bijela {
+  float: left;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  font-size: 50px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}

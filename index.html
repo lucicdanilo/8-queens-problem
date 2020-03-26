@@ -5,8 +5,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>8 kraljica</title>
     <script src="algoritam.js"></script>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="container"></div>
+    <h1>Drugi domaći zadatak iz ekspertnih sistema</h1>
+    <p style="font-style: italic;text-align: right;font-size: small;">Lučić Danilo 10/14</p>
+    <p style="font-style: italic;text-align: right;font-size: small;">Trnčić Damir 7/17</p>
+    <div id="opcije">
+      <button
+        class="pokretanjeAlgoritma"
+        onclick="restartovanjePlaninarenja(generisanjeStanja())"
+      >
+        Pokrenite
+      </button>
+      <button
+        class="pokretanjeStatistike"
+        onclick="statistika(generisanjeStanja())"
+      >
+        Statistika
+      </button>
+    </div>
+    <div id="rezultatPlaninarenja"></div>
+    <div id="sahovskaTabla">
+      <div class="sahovskaTabla">
+        <!-- 1 -->
+        <div id="1">
+          <div class="1 bijela"></div>
+          <div class="2 crna"></div>
+          <div class="3 bijela"></div>
+          <div class="4 crna"></div>
+          <div class="5 bijela"></div>
+          <div class="6 crna"></div>
+          <div class="7 bijela"></div>
+          <div class="8 crna"></div>
+        </div>
+        <!-- 2 -->
+        <div id="2">
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+        </div>
+        <!-- 3 -->
+        <div id="3">
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+        </div>
+        <!-- 4 -->
+        <div id="4">
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+        <div>
+        <!-- 5 -->
+        <div id="5">
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+        <id>
+        <!-- 6 -->
+        <div id="6">
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+        </div>
+        <!-- 7 -->
+        <div id="7">
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+        </div>
+        <!-- 8 -->
+        <div id="8">
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+          <div class="crna"></div>
+          <div class="bijela"></div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div id="rezultatStatistike"></div>
   </body>
 </html>
